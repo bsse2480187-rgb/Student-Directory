@@ -1,0 +1,88 @@
+
+/* ===== Brown Theme ===== */
+
+:root {
+  --bs-primary: #6F4E37;
+  --bs-primary-rgb: 111, 78, 55;
+  --bs-body-bg: #F8F1E8;
+  --bs-body-color: #3E2A1F;
+  --bs-border-color: #E0CEBB;
+  --bs-link-color: #6F4E37;
+  --bs-link-hover-color: #4B3020;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+  background-color: #F8F1E8;
+  color: #3E2A1F;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #4B3020;
+}
+
+a {
+  color: #6F4E37;
+}
+
+a:hover {
+  color: #4B3020;
+}
+
+/* Bootstrap primary colors */
+.bg-primary,
+.text-bg-primary {
+  background-color: #6F4E37 !important;
+  color: #FFF9F2 !important;
+}
+
+.btn-primary {
+  background-color: #6F4E37 !important;
+  border-color: #6F4E37 !important;
+  color: #FFF9F2 !important;
+}
+
+.btn-primary:hover {
+  background-color: #4B3020 !important;
+  border-color: #4B3020 !important;
+}
+
+/* Form fields */
+.form-control,
+.form-select {
+  background-color: #FFFCF8;
+  border-color: #D8C2AC;
+  color: #3E2A1F;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #A67C5B;
+  box-shadow: 0 0 0 0.2rem rgba(111, 78, 55, 0.15);
+}
+
+/* Links and pagination */
+.page-link {
+  color: #6F4E37;
+  background-color: #FFFCF8;
+  border-color: #E0CEBB;
+}
+
+.page-link:hover,
+.active > .page-link {
+  color: #FFFFFF;
+  background-color: #6F4E37;
+  border-color: #6F4E37;
+}
